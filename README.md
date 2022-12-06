@@ -280,3 +280,6 @@ syntax for this.
 - we checked that if we select items for estimate then it will also reduces in stock.So when our stock becomes completely empty then we need to send
 quotations for required items. So now our next task is to send quotations and restore our stock again.
 
+# Daily-Work ((7-12)-10-22)
+
+- 
