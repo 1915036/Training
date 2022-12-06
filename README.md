@@ -300,6 +300,6 @@ about the customer,item and delivery date.
 
 # Daily-Work (14-10-22)
  
- - 1) "new request" button in cmc request.
- - 7) item name in estimate automatically fetched.
+ 1) "new request" button in cmc request.
+ 7) item name in estimate automatically fetched.
  - these tasks have been completed.
