@@ -34,19 +34,11 @@ Today i completed some steps of LIBRARY MANAGEMENT SYSTEM like- create a doctype
 # Date:28 Aug 2022
 Today Satinder sir assign a moodle task to my team(Jasjit,Komalpreet,Ranvir).The task was that we have to make a query in mysql to get the grade report of the user in moodle corresponding to their course.
 # Dtae 29 Aug 2022
-To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i start working on it and explore the feature of it ,because it was my first time to do something on moodle.
+
+- To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i start working on it and explore the feature of it ,because it was my first time to do something on moodle.
+
 # Date 30 Aug 2022
-As i mention that i, installed the moodle on my system last day what today when i start working on it it show the error like (403 Forbidden)
-then  my friend Pranvir help me in this and tell me the solution tahat i have to stop the nginx.service and restart the  apache2.service.
-and it really solve my problem,thanku pranvir for your help. So we start our work on moodle grade report.
-# Date 31 Aug to 7 Sep 2022
-In order to accomplished our task ,we need user(student) name,grade,id,couse name.So start exploring the moodle database to get the valuses from the moodle database tables.
-1. mdl_grade_grades: In this table we get the id,rawgrademax,finalgrade.
-2. mdl_user: In this table we get the firstname of user,last name of user,username.
-3. mdl_course: In this we get id of course,fullname,shortname.
-- After getting all values we disscus our mentor and set the final table ,so that we make our single final query.The final table that we have to make contain the feild of uasername,firstname,lastname,course name,id.
-- We succesfilly make the query with the help of Satinder sir,and the last sir tell us to check the finaloutput that ,is it was actually meet our requirement.At that time taht was correct  but when we test it by adding more course then it does not give the update couse and update grade of user.
-- Then we try to solve the problem and our other training friend help us to overcome the getting error.
+- As i mention that i, installed the moodle on my system last day what today when i start working on it it show the error like (403 Forbidden)then  my friend Pranvir help me in this and tell me the solution tahat i have to stop the nginx.service and restart the  apache2.service.and it really solve my problem,thanku pranvir for your help. So we start our work on moodle grade report.
 
 # Daily-Work (1-09-22)
 
@@ -85,7 +77,7 @@ Learing about `import` and `export` commands. Rai sir given me one google sheet 
 - Learing about `import` and `export` commands. Rai sir given me one google sheet which contains the real data of civil department and told me that generates its timetable.
 I have found that where source code is present and then rai sir said that also find now if once timetable is generated  after that we change some infomation in its csv files ,is it also reflect in generated timetable or not?
  
-#Daily-Work (18-8-2022)
+# Daily-Work (18-8-2022)
 
 - Today i have started working on rai sir task but after done all testing i have reached that thers is not reflect of modify information in generated timetable and wanted to modify then generate the same timetable again.
 
