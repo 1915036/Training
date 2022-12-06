@@ -291,4 +291,15 @@ quotations for required items. So now our next task is to send quotations and re
 - We need to create a journal entry to show the amount in the chart of accounts. But when we make a general entry it shows the error which says set the fiscal year first.
 - In this we firstly add the sales order which include the information
 about the customer,item and delivery date.
+- Sales Invoice done.Payment of this order is also done
 
+# Daily-Work (13-10-22)
+
+- Dashboard for principal is created on erp.gndec.ac.in
+- After this we disscuss the project with sir and there many thing which are need to be add in the project like.
+
+# Daily-Work (14-10-22)
+ 
+ - 1) "new request" button in cmc request.
+ - 7) item name in estimate automatically fetched.
+ - these tasks have been completed.
