@@ -362,3 +362,18 @@ want. And here we also apply a Tax on items, discounts and on them.
 # Daily-Work (3-11-22)
 
 -  we can update the quotation values in the estimate table.For this sdo willlick on a button named "Quotation/Estimate" in the cmc requestform and redirect to the quotation form. And then the estimate table values will be autofetch from the quotation table.
+
+# Daily-Work (4-11-22)
+
+- We created 2 Doctypes named:
+1) final testing
+2) DemoQuotation2
+
+We added the same child table "estimate duplicate" in both doctypes as
+we mentioned above. But according to that we didn't get the results.
+
+# Daily-Work (5-11-22)
+
+- Make a new flowchart of CMC Estimate/Quotations according to
+@Satinder sir idea .
+
