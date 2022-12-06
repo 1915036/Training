@@ -231,4 +231,14 @@ In which cmc user see the requests by date wise and see no. of requests per day.
 
 # Daily-Work (30-9-22)
 
-- 
+- Today we (I and Pranvir ) are going to implement stock items in
+erp.gndec.ac.in and also creating a dashboard of SDE which is only
+visible to SDE only.
+
+# Daily-Work (1-10-22)
+
+- We are going to add stock items to erp.gndec.ac.in and make a
+dashboard for SDE which is only visible to SDE.
+
+# Daily-Work (2-10-22)
+- Today we have to fullfil the 
