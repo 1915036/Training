@@ -242,4 +242,41 @@ dashboard for SDE which is only visible to SDE.
 
 # Daily-Work (2-10-22)
 
-- Today we have to fullfil the 
+- Today we have to fullfil the requirement that are pending that thses are disscussed with Rai sir.
+- I changed the Nature of work according to the requirements.
+
+# Daily-Work (3-10-22)
+
+- Estimate work is done on erp.gndec.ac.in according to the requirements.
+
+# Daily-Work (4-10-22)
+
+- Me checked if we select items for estimate then it will also reduces in stock.
+- Now our task is to create a button in the CMC request form for SDE
+only in which SDE will manage the realtime stock items.
+
+# Daily-Work (5-10-22)
+
+- We have two options:
+First:
+We can add a custom button in the cmc request form using the form
+script. The link which is following is:
+https://frappeframework.com/docs/v13/user/en/api/form
+ But here we have an issue of permissions. Because Custom button is
+not a field in a doctype and in my knowledge we are only able to gives
+permissions to doctype fields to show that fields to some specific
+users so here we goes to our Second option
+
+Second:
+We can create a field which is of type "Button". I know this is a
+silly question but how can we add links behind the Button type fields
+in frappe??
+I searched this on Google and found that we need to write custom
+scripts to make this button working. But I didn't get the correct
+syntax for this.
+
+# Daily- Work (6-10-22)
+
+- we checked that if we select items for estimate then it will also reduces in stock.So when our stock becomes completely empty then we need to send
+quotations for required items. So now our next task is to send quotations and restore our stock again.
+
