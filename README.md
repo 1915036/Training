@@ -377,4 +377,10 @@ we mentioned above. But according to that we didn't get the results.
 - Make a new flowchart of CMC Estimate/Quotations according to
 @Satinder sir idea .
 
+# Daily- Work ((6-13)-11-22)
+
+- FullFil the requirents and do some changes in the fee structure and did some work on dashboard like add some filters in the cards and chardts of dashboard.
+
+
+
 
