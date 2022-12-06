@@ -303,3 +303,22 @@ about the customer,item and delivery date.
  1) "new request" button in cmc request.
  7) item name in estimate automatically fetched.
  - these tasks have been completed.
+
+# Daily-Work (15-10-22)
+
+ 2) sorting complaint number in my requests
+ - Tasks is completed.
+
+# Daily-Work (16-10-22)
+
+- We (Me and Komalpreet) are going to make new departments which are
+left and will also update the csv file accordingly and upload it in
+erp.gndec.ac.in.
+
+# Daily-Work (17-10-22)
+
+- Employees also created successfully.On erp.gndec.ac.in
+- Task was completed: Image size limit can change as we tested on gne2.gndec.ac.in.
+It can be changed through the backend. To change the image size limit,
+go to /sites and open "common_site_config.json".
+change max_file_size: 500000.
