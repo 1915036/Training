@@ -282,4 +282,6 @@ quotations for required items. So now our next task is to send quotations and re
 
 # Daily-Work ((7-12)-10-22)
 
-- 
+- Today Task was to do a Company Setup. So we are going to do the company setup.The company we are going to create  is Manufacturing company.
+- Our Company name is "Unique Number Ltd" under Domain "Manufacturing".
+
