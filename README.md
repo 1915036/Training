@@ -288,5 +288,7 @@ quotations for required items. So now our next task is to send quotations and re
 - Our next step is to define tax of a company under the section of chart of account.
 - In the section of Chart and Account , we select our company and come under the source of funds section . Here we do some changes in the CGST and SGST according to requirements which come under the Duties and Taxes.
 - We created incoming CGST and incoming SGST under Application of assets section in the chart of accounts for buying purposes and defined CGST and SGST under Source of funds section for selling purpose.
-
+- We need to create a journal entry to show the amount in the chart of accounts. But when we make a general entry it shows the error which says set the fiscal year first.
+- In this we firstly add the sales order which include the information
+about the customer,item and delivery date.
 
