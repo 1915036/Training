@@ -47,3 +47,165 @@ In order to accomplished our task ,we need user(student) name,grade,id,couse nam
 - After getting all values we disscus our mentor and set the final table ,so that we make our single final query.The final table that we have to make contain the feild of uasername,firstname,lastname,course name,id.
 - We succesfilly make the query with the help of Satinder sir,and the last sir tell us to check the finaloutput that ,is it was actually meet our requirement.At that time taht was correct  but when we test it by adding more course then it does not give the update couse and update grade of user.
 - Then we try to solve the problem and our other training friend help us to overcome the getting error.
+
+# Daily-Work (1-09-22)
+
+- Today @HS Rai sir give one task to me that we have to do some work on QT(Qt is cross-platform software for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows). The first we have to learn about the QT how to use it and how it work. For this i install it in my system and start exploring about it.Then we install QT creator in which we write our program to create the GUI.Qt Creator creates several files for you. The HelloWorld.qmlproject file is the project file, where the relevant project configuration is stored. This file is managed by Qt Creator, so don’t edit it yourself. Another file, HelloWorld.qml, is our application code. Open it and try to understand what the application does before you read on.
+
+# Daily-Work (2-09-22)
+
+- In this period we learn about the QT and run a simple program (Hello) on it.
+- Beside this i am also workinfg on to get the user data from database.The question was that how to fetch the data from two table in mysql database.Because we have to fetch the user name and corresponding courses which are stored in two different tables.
+
+# Daily-Work (10-08-22)
+
+- On this day sir give me new task of FET.FET(FET-6.7.5) is free software for automatically scheduling the timetable of a school, high-school or university. It uses a fast and efficient timetabling algorithm.
+
+# Dailt-Work (11-8-2022)
+
+- Today i am also working on FET and tried to generate the timetable using random data.
+
+# Daily-Work (12-8-2022)
+
+- Today I have successfully generate the time table and also shown to Rai sir but he told me that use `import` and `export` data commands and learn its documentation.
+
+# Daily-Work (13-8-2022)
+
+- Listening all the presenation given by other GD members.
+
+# Daily-Work (15-8-2022)
+Learing about `import` and `export` commands. Rai sir given me one google sheet which contains the real data of civil department and told me that generates its timetable.
+
+# Daily-Work (16-8-2022)
+
+- Today i have generated the civil department timetable then rai sir said me find that where all these files stored and where its source code is present.
+
+# Daily-Work (17-8-2022)
+
+- Learing about `import` and `export` commands. Rai sir given me one google sheet which contains the real data of civil department and told me that generates its timetable.
+I have found that where source code is present and then rai sir said that also find now if once timetable is generated  after that we change some infomation in its csv files ,is it also reflect in generated timetable or not?
+ 
+#Daily-Work (18-8-2022)
+
+- Today i have started working on rai sir task but after done all testing i have reached that thers is not reflect of modify information in generated timetable and wanted to modify then generate the same timetable again.
+
+# Dailt-Work (19-8-20222)
+
+- Today was my task to enable the `Level-5` or `Level-7`. `Level-2` is by default set. 
+`Level-7` is used to highlight the words. Till evening i have enables it successfully.
+
+# Daily-Work (20-8-2022)
+
+- Today's in morning Rai sir told me again now without using GUI of `FET` software generate the timetable. On the backend fet will run and takes the csv files (user will upload) and genearate the timetable in the backend and give the link of generated timetbale as a output.
+
+# Daily-Work (22-8-2022)
+
+- Today Satinder sir given me work of moodle.I have to created a Courses cateogries there using CSV files of NSPS.
+
+# Daily-Work (23-8-2022)
+
+- I have done one blunder mistake while creating the course categories which is told by satinder sir to me and said create the categories of courses again.
+
+# Daily-Work (24-8-2022)
+
+- I have created all the courses again and also putt the subjects in each category.This task took complete one day.
+
+# Daily-Work (25-8-2022)
+
+- Today Satinder sir given a task to me and jasjit to find the information from database regarding to the NSPS grade report. A grade report is contains the fields of `Name of course` , `Email address` , `Course grade` etc.
+
+# Daily-Work (26-8-2022)
+
+- Today we learnt first about the sql queries and watched one tutorial for it and explore about the general log file and error log file along what is the importance over all of these files. After wacthed the tutorial got some idea and executed some queries.
+
+# Daily-Work (27-8-2022)
+
+- Finally we took our first step towards the task. To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i started working on it and explore the feature of it ,because it was my first time to do something on moodle.
+
+# Daily-Work (29-8-2022)
+
+- In order to accomplished our task ,we need user(student) name,grade,id,couse name.So start exploring the moodle database to get the valuses from the moodle database tables.
+
+mdl_grade_grades: In this table we get the id,rawgrademax,finalgrade.
+mdl_user: In this table we get the firstname of user,last name of user,username.
+mdl_course: In this we get id of course,fullname,shortname.
+
+# Daily-Work (30-8-2022)
+
+- Today we had a discussion with our mentor releted the values and we set the final table ,to make single final query. The final table that we have to make contain the feild of uasername,firstname,lastname,course name,id.
+
+# Daily-Work (31-8-2022)
+
+- We succesfilly make the query with the help of Satinder sir, and at last sir tell us to check the final output, is it was actually meet with our requirement. At that time it was correct but when we test it by adding more courses then it was not giving the update couse and update grade of user.
+
+# Daily-Work (1-9-2022)
+
+- Today i had a task to resolve the problem. For that i took help from my other training friends. We all start working on it and also finding the solution with diffrent diffrent approaches.
+
+# Daily-Work (2-9-2022)
+
+- Today i went to satinder sir to discuss the problem. Sir gave some idea about it we again start to working on it and applied several queries but didn't work anything till evening.
+
+# Daily-Work (3-9-2022)
+
+- On this day i try below query-
+
+`SELECT u.firstname , u.lastname , u.email , u.username, c.fullname as course_name,  
+ROUND(gg.finalgrade,2) Grade, concat(uo.url, c.id) as url FROM mdl_course AS
+c JOIN  url_of_course AS uo JOIN mdl_context AS ctx ON c.id = ctx.instanceid 
+JOIN mdl_role_assignments AS ra ON ra.contextid = ctx.id JOIN mdl_user 
+AS u ON u.id = ra.userid JOIN mdl_grade_grades AS gg ON gg.userid = u.id JOIN 
+mdl_grade_items AS gi ON gi.id = gg.itemid JOIN mdl_course_categories 
+AS cc ON cc.id = c.category WHERE gi.courseid = c.id AND gi.itemtype = 'course';`
+
+It executed successfully getting the final output which mathes with requirements.
+
+# Daily-Work (4-9-2022)
+
+- After this having a task to put the incremental backup so that automatically values will be fetched from the database and update on moodle (gradebook) respectively.
+
+# Daily-Work (5-9-2022)
+
+- Today i have a task to learnt about the incemental backup. For that i refers some tutorial from youtube and followed them. I learnt of its importance and significance.
+
+# Daily-Work (6-9-22)
+
+- Today @HS Rai sir give one task to me that we have to do some work on QT(Qt is cross-platform software for creating graphical user interfaces as well as cross-platform applications that run on various software and hardware platforms such as Linux, Windows). The first we have to learn about the QT how to use it and how it work. For this i install it in my system and start exploring about it.
+
+# Daily-Work (7-9-22)
+
+- Then we install QT creator in which we write our program to create the GUI.Qt Creator creates several files for you. The HelloWorld.qmlproject file is the project file, where the relevant project configuration is stored. This file is managed by Qt Creator, so don’t edit it yourself. Another file, HelloWorld.qml, is our application code. Open it and try to understand what the application does before you read on.
+
+
+# Daily-Work ((8-10)-09-22)
+
+- In this period we learn about the QT and run a simple program (Hello) on it.
+- Beside this i am also workinfg on to get the user data from database.The question was that how to fetch the data from two table in mysql database.Because we have to fetch the user name and corresponding courses which are stored in two different tables.
+
+# Daily-Work (14-9-22)
+
+- Today We start a ndew Project named CMC( Construction & Maintenance Cell).First of all we need to understand the structure of CMC, The CMC will be a company under NSET, parallel to GNDEC. IMO it must be a service based company, what is your opinion, and other domains available.It will have sales, purchase, stock, accounting etc.So, It is a service based company.
+
+# Daily-Work (15-9-22)
+
+- Create a company at gne2 and set its domain to service. We will test over gne2.But We have a maintenance module.Here we can make others doctype related to maintenance.So, the Company Name : Construction & Maintenance Cell, Parent Company : NSET, Domain Name : Services
+
+# Daily-Work (16-9-22)
+
+- Create a dashboard for the maintenance request.
+In which cmc user see the requests by date wise and see no. of requests per day.
+
+# Daily-Work (17-9-22)
+
+- In the web form, "justification for request"  field needs to be optional, not mandatory. And it needs to be "draft" upto the level of HoD, which means that HoD/OIc/Caretaker/Warden will be able to change it. No change will took place once the higher authority forwarded the request.
+
+# Daily-Work (18-9-22)
+
+- Today, I am working on Dashboard. Start learning about the Dashboard and make test dashboard.Becauses ,I have to make a Dadboard of all Higher Authorities like SDO,CMC -Head, HOd's of all Departments.
+
+# Daily-Work (19-9-22)
+
+- Today we are working on the workflow of CMC project. We made the flowchart of CMC Project.
+- steps: student | employee -> HoD -> SDO -> O/Ic Incharge 
+- But there migh be Student -> Caretaker -> Warden -> SDO or Lab Attendant | Lab Technician -> Lab Incharge -> HoD ... In case of rejected, all must see the status, and in case of any additional query it may be sent back from where is was forwarded.
+
