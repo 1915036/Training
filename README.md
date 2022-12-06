@@ -284,4 +284,9 @@ quotations for required items. So now our next task is to send quotations and re
 
 - Today Task was to do a Company Setup. So we are going to do the company setup.The company we are going to create  is Manufacturing company.
 - Our Company name is "Unique Number Ltd" under Domain "Manufacturing".
+- Company (Unique Number Ltb) is successfully created on gne2. Now we are going to do our next step.
+- Our next step is to define tax of a company under the section of chart of account.
+- In the section of Chart and Account , we select our company and come under the source of funds section . Here we do some changes in the CGST and SGST according to requirements which come under the Duties and Taxes.
+- We created incoming CGST and incoming SGST under Application of assets section in the chart of accounts for buying purposes and defined CGST and SGST under Source of funds section for selling purpose.
+
 
