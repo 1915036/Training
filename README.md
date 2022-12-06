@@ -322,3 +322,43 @@ erp.gndec.ac.in.
 It can be changed through the backend. To change the image size limit,
 go to /sites and open "common_site_config.json".
 change max_file_size: 500000.
+
+# Daily-Work (18-10-22)
+
+- Working on Home page.
+1)  I add a nav bar.(About, Departments, Notice board, Faculties).
+
+# Daily-Work (19-10-22)
+
+- Working on Education Domain . 
+- I work on education domain t done the project regarding the Student Enrollment.
+- Firstly under stand the whole process and had meeting with sir.
+
+# Daily-Work (20-10-22)
+
+- Understand the Fee structure  in Edcation Domain.
+- Student Enrollment Process.
+
+# Daily-Work ((21-30)-10-22)
+
+- Create ourses in the education domain.
+- Create Fee structure (Fee component, Student Category, Program)
+- Add student and instructor in the list.
+
+# Daily-Work ( 1-11-22)
+
+- Rai sir told us to replace the estimate by quotation.
+- Our approach is that we are going to create a button named "quotation
+estimate" which will be shown to the SDE. With the help of this
+button, SDE will be able to handle quotations(estimate), sales order,
+sales invoice(Bill).
+
+# Daily- Work (2-11-22)
+
+- We successfully created a quotation. Now we are going to create a
+sales order of that quotations, in which we add our items which we
+want. And here we also apply a Tax on items, discounts and on them.
+
+# Daily-Work (3-11-22)
+
+-  we can update the quotation values in the estimate table.For this sdo willlick on a button named "Quotation/Estimate" in the cmc requestform and redirect to the quotation form. And then the estimate table values will be autofetch from the quotation table.
