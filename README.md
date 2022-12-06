@@ -209,3 +209,26 @@ In which cmc user see the requests by date wise and see no. of requests per day.
 - steps: student | employee -> HoD -> SDO -> O/Ic Incharge 
 - But there migh be Student -> Caretaker -> Warden -> SDO or Lab Attendant | Lab Technician -> Lab Incharge -> HoD ... In case of rejected, all must see the status, and in case of any additional query it may be sent back from where is was forwarded.
 
+# Daily-Work (20-9-22)
+
+- Today i work with Satinderpal sir , sir said us to make a courses on guru.gndec.ac.in.So we make it on the site.
+
+# Daily-Work (21-9-22)
+
+- Solved the problem regarding the moodle like user are not enroll in the courses and their attebdance.
+
+# Daily-Work (22-9-22)
+
+- Beside the CMC project I also work on the NSPS project(School project).Firstly we visit the school and get the information about the courses or subject and teacher or student data of school.
+
+# Daily-Work (23-9-22)
+
+- According to the information we upload the courses and user in the gne1.gndec.ac.in which is official moodle site of School.
+
+# Daily-Work ((24-29)-9-22)
+
+- Working on gne1.gndec.ac.in and visit the school regulary.Solves the teachers problems, help them to access the gne1.gndec.ac.in and how to add the activity in it and turm the edit mode on to do some work.
+
+# Daily-Work (30-9-22)
+
+- 
