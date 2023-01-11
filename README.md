@@ -1,5 +1,4 @@
-# Training
-
+# Training ⬇️
 
 # :arrow_right: Day-1(12/07/2022)
 ### *Installation of the Linux*
