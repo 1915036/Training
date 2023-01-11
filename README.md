@@ -3,7 +3,7 @@
 
 # :arrow_right: Day-1(12/07/2022)
 ### *Installation of the Linux*
-- Today I made a bootable **usb drive** by downloading the **linux ubuntu ISO** in that and runnind it in on my machine. with the help of this link https://ubuntu.com/download/desktop/thank-you?version=22.04&architecture=amd64 and download iso file, ubuntu desktop(20.04 LTS)*
+- Today I made a bootable **usb drive** by downloading the **linux ubuntu ISO** in that and runnind it in on my machine. with the help of this link `https://ubuntu.com/download/desktop/thank-you?version=22.04&architecture=amd64` and download iso file, ubuntu desktop(20.04 LTS)*
 
 # :arrow_right: Day-2(13/07/2022)
 - The very next task was install the **Lamp** on the Linux ubuntu .*
@@ -11,14 +11,13 @@
 So firstly update and upgrade you system and the install, 
 - Install the **Apache 2 webserver**.\
 using cammand:
-  ***sudo apt install apache2*** 
-- then install, **Install the MySQL database server** \
+`sudo apt install apache2` 
+- then install,`Install the MySQL database server` \
 using cammand:
-**sudo apt install mysql-server** 
- - then install,**Install PHP** \
+`sudo apt install mysql-server` 
+- then install,**Install PHP** \
 using cammand:
-***sudo apt install php***\
-and check the version of php with the cammand:**php -v** \
+`sudo apt install php`and check the version of php with the cammand:`php -v` \
 
 # :arrow_right: Day-3(14/07/2022)
 ### install frappe
@@ -34,10 +33,10 @@ and check the version of php with the cammand:**php -v** \
 # :arrow_right: Date:(28-08-2022)
 - Today Satinder sir assign a moodle task to my team(Jasjit,Komalpreet,Ranvir).The task was that we have to make a query in mysql to get the grade report of the user in moodle corresponding to their course.
 
-# :arrow_right: Dtae 29 Aug 2022
+# :arrow_right: Date:(29-08-2022)
 - To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i start working on it and explore the feature of it ,because it was my first time to do something on moodle.
 
-# :arror_right: Daily-WorkDate(30-08-2022)
+# :arror_right: Daily-Work(30-08-2022)
 - As i mention that i, installed the moodle on my system last day what today when i start working on it it show the error like (403 Forbidden)then  my friend Pranvir help me in this and tell me the solution tahat i have to stop the nginx.service and restart the  apache2.service.and it really solve my problem,thanku pranvir for your help. So we start our work on moodle grade report.
 
 # :arrow_right: Daily-Work (1-09-22)
@@ -94,7 +93,7 @@ and check the version of php with the cammand:**php -v** \
 # :arrow_right: Daily-Work (26-8-2022)
 - Today we learnt first about the sql queries and watched one tutorial for it and explore about the general log file and error log file along what is the importance over all of these files. After wacthed the tutorial got some idea and executed some queries.
 
-#:arrow_right: Daily-Work (27-8-2022)
+# :arrow_right: Daily-Work (27-8-2022)
 - Finally we took our first step towards the task. To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i started working on it and explore the feature of it ,because it was my first time to do something on moodle.
 
 # :arrow_right: Daily-Work (29-8-2022)
@@ -194,7 +193,7 @@ dashboard for SDE which is only visible to SDE.
 # :arrow_right: Daily-Work (3-10-22)
 - Estimate work is done on erp.gndec.ac.in according to the requirements.
 
-# Daily-Work (4-10-22)
+# ➡️Daily-Work (4-10-22)
 - I checked that if we select items for estimate then it will also reduces in stock.
 - Now our task is to create a button in the CMC request form for SDE
 only in which SDE will manage the realtime stock items.
