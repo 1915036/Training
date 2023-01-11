@@ -36,7 +36,7 @@ using cammand:
 # :arrow_right: Date:(29-08-2022)
 - To complete the task (grade report),firstly i install local moodle on my system and it take some time.Then i start working on it and explore the feature of it ,because it was my first time to do something on moodle.
 
-# :arror_right: Daily-Work(30-08-2022)
+# :arrow_right: Daily-Work(30-08-2022)
 - As i mention that i, installed the moodle on my system last day what today when i start working on it it show the error like (403 Forbidden)then  my friend Pranvir help me in this and tell me the solution tahat i have to stop the nginx.service and restart the  apache2.service.and it really solve my problem,thanku pranvir for your help. So we start our work on moodle grade report.
 
 # :arrow_right: Daily-Work (1-09-22)
@@ -141,7 +141,7 @@ AS cc ON cc.id = c.category WHERE gi.courseid = c.id AND gi.itemtype = 'course';
 - In this period we learn about the QT and run a simple program (Hello) on it.
 - Beside this i am also workinfg on to get the user data from database.The question was that how to fetch the data from two table in mysql database.Because we have to fetch the user name and corresponding courses which are stored in two different tables.
 
-# :arrow_rght: Daily-Work (14-9-22)
+# ➡️ght: Daily-Work (14-9-22)
 - Today We start a ndew Project named CMC( Construction & Maintenance Cell).First of all we need to understand the structure of CMC, The CMC will be a company under NSET, parallel to GNDEC. IMO it must be a service based company, what is your opinion, and other domains available.It will have sales, purchase, stock, accounting etc.So, It is a service based company.
 
 # :arrow_right: Daily-Work (15-9-22)
@@ -220,7 +220,7 @@ syntax for this.
 - we checked that if we select items for estimate then it will also reduces in stock.So when our stock becomes completely empty then we need to send
 quotations for required items. So now our next task is to send quotations and restore our stock again.
 
-# :arroe_right: Daily-Work ((7-12)-10-22)
+# :arrow_right: Daily-Work ((7-12)-10-22)
 - Today Task was to do a Company Setup. So we are going to do the company setup.The company we are going to create  is Manufacturing company.
 - Our Company name is "Unique Number Ltd" under Domain "Manufacturing".
 - Company (Unique Number Ltb) is successfully created on gne2. Now we are going to do our next step.
