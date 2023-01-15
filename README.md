@@ -636,5 +636,62 @@ Then the task was to add an action button on this, this action button was about 
 
  # :arrow_right: Daily-Work (2-12-22)
  - Today we crete the user for NSPS school. These user are the Teachers ,so give them Instructor role at last. The main motive was  to show the courses to the instructor. For this we have to create the program ,courses. 
+ 
+ # :arrow_right: Daily-Work (3-12-22)
+ - Today we had a discussion with @Satinderpal Sir regarding completing
+the Nankana Sahib Public School project. So, Satinderpal Sir told
+us(Jasjit Kaur and Pranvir SIngh) to complete this project as soon as
+possible.
+- Our first requirement is to submit the applicant form of the student
+applicant. So, in gne2.gndec.ac.in, we customize a student applicant
+doctype which fulfill our requirement. We also make a connections of
+applicant fee(500) which is shown after save the form of student
+applicant. Here is the link:
+https://gne2.gndec.ac.in/app/student-applicant/new-student-applicant-1
+
+# :arrow_right: Daily-Work (4-12-22)
+ Sunday
+ 
+ # :arrow_right: Daily-Work (5-12-22)
+ - Now our task is to check the ledger of the applicant fees.
+ - To check the ledger, we create an action button named "View" in a
+doctype. Through this button, we can see the accounting ledger. But
+the Problem is that Ledger is shown but with 0 amount(credit and debit
+value 0). Beside this, it does not show the Voucher No.
+
+# :arrow_right: Daily-Work (6-12-22)
+- After trying a lot, we found that this problem occurred due to the
+party type.
+- There are already predefined party types that are created
+in erpnext. 
+- But the Administrator has no permission to create a new
+party type. We can resolve this problem by creating a new party type.
+
+# :arrow_right: Daily-Work (7-12-22)
+- In erp.gndec.ac.in:Predefined party types are:
+1) Student
+2) Shareholder
+3) Employee
+4) Supplier
+5) Customer
+- In our case, We need to create a student applicant not a student. So,
+we need to create new party type of doctype "Student Applicant".
+
+# :arrow_right: Daily-Work (8-12-22)
+- This problem is solved now. 
+- Early we thought that this problem occurs
+because of the party type.But after adding more party type (student
+applicant) problem is not solved.
+- So we checked that this all is
+because of the Company setup.
+
+# :arrow_right: Daily-Work (9-12-22)
+-  Initially we use the NSPS company and in
+the ledger the account value is zero(0), but after using the SDC
+company for the transaction the problem is solved .
+- Now  in the ledger we see all the transections.
+
+ 
+ 
 
 
