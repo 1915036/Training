@@ -733,6 +733,39 @@ gne2.gndec.ac.in:8002, so in this we create the Web form of
 Registration Form but when after filling the details we are unable to
 save the form while discard button is working but we don't know why
 save button is not working.
+- We check that all the existing webforms are submitting successfully if
+we create a new webform then it doesn't.
+
+# ➡️ Daily-Work (18-12-22)
+Sunday
+
+# ➡️ Daily-Work (19-12-22)
+- In gne12.gndec.ac.in we have inbuilt Razorpay integration setting in
+the "Integrations" section. 
+- But in gne2.gndec.ac.in we don't have a razorpay integration option.
+
+# ➡️ Daily-Work (20-12-22)
+- The solution is that we only have to add one doctype named "Razorpay
+Settings".
+- Under module "integrations" then we customize the workspace
+of Integration page.
+
+# ➡️ Daily-Work (21-12-22)
+- Now sir fill the API key in gne2.
+-  Now we create the webform which is filled by the student:
+https://gne2.gndec.ac.in/registration/new
+- In this webform, we create a button for Razorpay fees. Please check if
+this is correct.
+
+# ➡️ Daily-Work (22-12-22)
+- To the moment we switch to the CMC project.
+- In order to complete the CMC project @Satinder assigned this task to
+one team(Pranvir, Jasjit, Sahilpreet). As per the discussion with
+@satinder sir in the morning, sir said that we should have to test the
+whole CMC Project in gne2.gndec.ac.in.
+
+
+
 
 
 
