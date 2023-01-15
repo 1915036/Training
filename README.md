@@ -710,6 +710,31 @@ Sunday
 - We discussed with @Satinder sir that students are also eligible to
 submit the registration fees and applicant fees(500).
 - For this, we firstly create a registration form, in which students fill their details regarding admission.
+- So the next step is after submitting the registration form, students submit their respective fees.
+
+# :arrow_right: Daily-Work (14-12-22)
+- But actually we don't have any idea about this. How students can submit their fees online. 
+- And we did this work locally. Now we are going to implement it on gne2.gndec.ac.in.
+- In discussion with @Satinder sir, we came to the point that students can also submit their fees online but the doubt is at which mode they can submit their fees(like paytm, google pay, or many more methods).
+
+# ➡️ Daily-Work (15-12-22)
+- Rai sir give us idea about student online payment.
+- "It depends on payment gateway. Once that is implemented, all supporter / selected methods will be available. "
+- So we are start exporing it.Like what is payment gateway, their methods etc.
+
+# ➡️ Daily-Work (16-12-22)
+- Me and pranvir have made the form to collect the registration fees that is 500/- from the student.
+- @ Raghav and @simran have attached the button to pay fee that would be link to the online razorpay gateway.
+- Now  they are asking for the API key and API secret to make the razorpay working.
+
+# ➡️ Daily-Work (17-12-22)
+-  we are going to do our work on
+gne2.gndec.ac.in:8002, so in this we create the Web form of
+Registration Form but when after filling the details we are unable to
+save the form while discard button is working but we don't know why
+save button is not working.
+
+
 
  
  
