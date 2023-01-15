@@ -1,33 +1,272 @@
 # Training ⬇️
+# TRAINING AND INTERNSHIP PROGRAM :point_down:
 
-# :arrow_right: Day-1(12/07/2022)
-### *Installation of the Linux*
-- Today I made a bootable **usb drive** by downloading the **linux ubuntu ISO** in that and runnind it in on my machine. with the help of this link `https://ubuntu.com/download/desktop/thank-you?version=22.04&architecture=amd64` and download iso file, ubuntu desktop(20.04 LTS)*
+:arrow_right: **Date : 12-JULY-2022** 
 
-# :arrow_right: Day-2(13/07/2022)
-- The very next task was install the **Lamp** on the Linux ubuntu .*
-- As we know the meaning of lamp is(LAMP = Linux + Apache + MySql + PHP)*
-So firstly update and upgrade you system and the install, 
-- Install the **Apache 2 webserver**.\
-using cammand:
-`sudo apt install apache2` 
-- then install,`Install the MySQL database server` \
-using cammand:
-`sudo apt install mysql-server` 
-- then install,**Install PHP** \
-using cammand:
-`sudo apt install php`and check the version of php with the cammand:`php -v` \
+### Learning new Things
 
-# :arrow_right: Day-3(14/07/2022)
-### install frappe
-- Install the frappe in ubuntu with the help of instruction in the link.
-- https://github.com/D-codE-Hub/Guide-to-Install-Frappe-ERPNext-in-Ubuntu-22.04-LTS*
+- In the morning we have meeting with HS Rai Sir(mentor of our training).
+- He gave us the instructions and welcome us in the SDC(Software developement Centre)
+- He told us to work on the things:
+- Linux, Apache, Mysql & Mariadb , php.
 
-# :arrow_right: Day-4(18/07/2022)
-- As the frappe was installed,the futher reading process about the usage of the framework and the LIBRARY MANAGEMENT SYSTEM was initialted and doctype were created.
 
-# :arrow_right: Day-7(20/07/2022)
-- Today i completed some steps of LIBRARY MANAGEMENT SYSTEM like- create a doctype,doctype feature,controllers method.
+:arrow_right: **Date : 13-JULY-2022** 
+
+- Today I started working on learning about LAMP.
+- I go through the documentation https://www.javatpoint.com/what-is-lamp.
+
+### What I learn Today:-
+
+- Linux: Linux started in 1991. It sets the foundation for the stack model. All other layers are run on top of this layer.
+  It is an open-source and free operating system. It is endured partly because it's flexible, and other operating systems are harder to configure.
+     
+- Apache: The second layer consists of web server software, typically Apache Web Server. This layer resides on top of the Linux layer.
+  Apache HTTP Server is a free web server software package made available under an open-source license. It used to be known as Apache Web Server when it     was created in 1995.
+    
+- MySQL: MySQL is a relational database management system used to store application data. It is an open-source and keeps all the data in a format that       can easily be queried with the SQL language.
+    
+- PHP: The scripting layer consists of PHP and other similar web programming languages.
+  The PHP open-source scripting language works with Apache to create dynamic web pages. We cannot use HTML to perform dynamic processes such as pulling       data out of a database.
+
+
+:arrow_right: **Date : 14-JULY-2022** 
+
+
+- Today I learn a lot of stuff related to linux, different operating systems.
+- I go through the documentation which is provided at https://www.guru99.com/install-linux.html and learn about the linux distrubutions.
+- I also learn theoretically how to install linux in our laptop or pc but there is a lot of difference to learn theoratically and perform practically.
+- I got so many error while installing the linux even my window is destroyed due to some lack of information.
+- Now I have no operating system in my pc.
+- After a lot of struggle when I am unable to find the the solution of this then I decide to this tommorow in the presence of some expert who is having some knowledge of linux and the stuff related to distributions.
+
+:arrow_right: **Date : 15-JULY-2022** 
+
+- In the morning Pranvir help me to resolve the errors which I got during the installation of linux.
+- Now I have Ubuntu linux distribution in my pc.
+- This took my whole day and I learn a lot of things like how to install linux in our laptop practically.
+
+:arrow_right: **Date : 16-JULY-2022** 
+
+### Saturday
+
+:arrow_right: **Date : 17-JULY-2022** 
+
+### Sunday
+
+:arrow_right: **Date : 18-JULY-2022** 
+
+- Today Rai Sir added our whole team in the google group and told us to go through the documentation http://www.slideshare.net/sandeepkmadaan/mailing-guidelines 
+- I read all the guide lines which is mentioned in the mailing guidelines.
+- I Read about the frappe framework, its functionalities and advantage along with its installation process.
+
+:arrow_right: **Date : 19-JULY-2022** 
+
+- Today the day started with the meeting which we have with our mentors and our SDC senoirs. They all shared their experiences and also gave a brief direction about our work.
+- I learn a lot things from them.
+- Today we all send our first mail in greatdeveloper group.
+- In the mail we describe our skills and our intrests.
+
+:arrow_right: **Date : 20-JULY-2022** 
+
+- Today I started work on installing the frappe framework in our laptop.
+- For installing this I go go through the following steps:-
+
+## Guide-to-Install-Frappe-ERPNext-in-Ubuntu-22.04-LTS
+A complete Guide to Install Frappe Bench in Ubuntu 22.04 LTS and install Frappe/ERPNext Application
+
+### Pre-requisites 
+
+      Python 3.6+
+      Node.js 14+
+      Redis 5                                       (caching and real time updates)
+      MariaDB 10.3.x / Postgres 9.5.x               (to run database driven apps)
+      yarn 1.12+                                    (js dependency manager)
+      pip 20+                                       (py dependency manager)
+      wkhtmltopdf (version 0.12.5 with patched qt)  (for pdf generation)
+      cron                                          (bench's scheduled jobs: automated certificate renewal, scheduled backups)
+      NGINX                                         (proxying multitenant sites in production)
+
+### STEP 1 Install git
+    sudo apt-get install git
+
+### STEP 2 install python-dev
+
+    sudo apt-get install python3-dev
+
+### STEP 3 Install setuptools and pip (Python's Package Manager).
+
+    sudo apt-get install python3-setuptools python3-pip
+
+### STEP 4 Install virtualenv
+    
+    sudo apt-get install virtualenv
+    
+  CHECK PYTHON VERSION 
+  
+    python3 -V
+  
+  IF VERSION IS 3.8.X RUN
+  
+    sudo apt install python3.8-venv
+
+  IF VERSION IS 3.10.X RUN
+  
+     sudo apt install python3.10-venv
+
+### STEP 5 Install MariaDB
+
+    sudo apt-get install software-properties-common
+    sudo apt install mariadb-server
+    sudo mysql_secure_installation
+    
+    
+### STEP 6  MySQL database development files
+
+    sudo apt-get install libmysqlclient-dev
+
+### STEP 7 Edit the mariadb configuration ( unicode character encoding )
+
+    sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf
+
+add this to the 50-server.cnf file
+
+    
+     [server]
+     user = mysql
+     pid-file = /run/mysqld/mysqld.pid
+     socket = /run/mysqld/mysqld.sock
+     basedir = /usr
+     datadir = /var/lib/mysql
+     tmpdir = /tmp
+     lc-messages-dir = /usr/share/mysql
+     bind-address = 127.0.0.1
+     query_cache_size = 16M
+     log_error = /var/log/mysql/error.log
+    
+     [mysqld]
+     innodb-file-format=barracuda
+     innodb-file-per-table=1
+     innodb-large-prefix=1
+     character-set-client-handshake = FALSE
+     character-set-server = utf8mb4
+     collation-server = utf8mb4_unicode_ci      
+     
+     [mysql]
+     default-character-set = utf8mb4
+
+Now press (Ctrl-X) to exit
+
+    sudo service mysql restart
+
+### STEP 8 install Redis
+    
+    sudo apt-get install redis-server
+
+### STEP 9 install Node.js 14.X package
+
+    sudo apt install curl 
+    curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
+    source ~/.profile
+    nvm install 14.15.0  
+
+### STEP 10  install Yarn
+
+    sudo apt-get install npm
+
+    sudo npm install -g yarn
+
+### STEP 11 install wkhtmltopdf
+
+    sudo apt-get install xvfb libfontconfig wkhtmltopdf
+    
+
+### STEP 12 install frappe-bench
+
+    sudo -H pip3 install frappe-bench
+    
+    bench --version
+    
+### STEP 13 initilise the frappe bench & install frappe latest version 
+
+    bench init frappe-bench 
+    
+    cd frappe-bench/
+    bench start
+    
+### STEP 14 create a site in frappe bench 
+    
+    bench new-site dcode.com
+    
+    bench use dcode.com
+
+### STEP 15 install ERPNext latest version in bench & site
+
+    bench get-app erpnext --branch version-13
+    ### OR
+    bench get-app https://github.com/frappe/erpnext --branch version-13
+
+    bench --site dcode.com install-app erpnext
+    
+    bench start
+
+
+:arrow_right: **Date : 21-JULY-2022** 
+
+- I get a lot of errors in the installation of frappe framework in my pc which is mentioned in the mails.
+- A lot of errors is solved by searching a lot of errors are resolved by ourself also.
+- Today I successfullly install the frappe framework in our laptop.
+
+:arrow_right: **Date : 22-JULY-2022** 
+
+- Today our task is to create library management system in our laptop by learning through the frappe documentation https://frappeframework.com/
+- In the library Management System we have to do the following things:-
+
+We will build a simple Library Management System in which the Librarian can log in and manage Articles and Memberships. We will build the following models:
+
+- Article: A Book or similar item that can be rented.
+- Library Member: A user who is subscribed to a membership.
+- Library Transaction: An Issue or Return of an article.
+- Library Membership: A document that represents an active membership of a Library Member.
+- Library Settings: Settings that define values like Loan Period and the maximum number of articles that can be issued at a time.
+
+:arrow_right: **Date : 23-JULY-2022** 
+
+### Saturday
+
+:arrow_right: **Date : 24-JULY-2022** 
+
+### Sunday
+
+:arrow_right: **Date : 25-JULY-2022** 
+
+- Today I learn how we can create our site and app in frappe folder:-
+- Commands which use to create app is
+```
+bench new-app {app_name}
+```
+- For creating new site
+```
+bench new-site {site_name}
+```
+### Today I complete the following steps of Library Management System:-
+
+- Frappe Framework Tutorial
+- Install and Setup Bench
+- Create an App
+- Create a Site
+- Create a DocType
+- DocType Features
+
+:arrow_right: **Date : 26-JULY-2022** 
+
+### Today I completed the pending steps of library management system
+
+- Controller Methods
+- Types of DocType
+- Form Scripts
+- Web View Pages
+- Today I complete the library management system and decide to give the presentation on it.
 
 # :arrow_right: Date:(28-08-2022)
 - Today Satinder sir assign a moodle task to my team(Jasjit,Komalpreet,Ranvir).The task was that we have to make a query in mysql to get the grade report of the user in moodle corresponding to their course.
