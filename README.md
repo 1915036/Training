@@ -764,6 +764,74 @@ one team(Pranvir, Jasjit, Sahilpreet). As per the discussion with
 @satinder sir in the morning, sir said that we should have to test the
 whole CMC Project in gne2.gndec.ac.in.
 
+# ➡️ Daily-Work (23-12-22)
+- So, now in the gne2.gndec.ac.in we are going to make a doctype of
+Maintenance form and also webform of this form.
+- first we will test it only for the employee. After this we will
+move to the hosteler part.
+- Doctype(Maintenance)  and Webform(Maintenance Form) is created on
+gne2.gndec.ac.in. But at moment I didn't give any permission.
+
+# ➡️ Daily-Work (24-12-22)
+- Doctype(Maintenance)  and Webform(Maintenance Form) is created on
+gne2.gndec.ac.in. But at moment I didn't give any permission.
+- Beside this I am going to do a company setup in the gne2.gndec.ac.in
+and under that company I will create the Departments.
+
+# ➡️ Daily-Work (25-12-22)
+Sunday
+
+# ➡️ Daily-Work (26-12-22)
+- Now we give some  Perm level permission to the specific field and
+these permissions are also given to the SDE and CMC Head.
+- Now our pending task for CMC is to keep and maintain the record of
+warehouse items .
+- There are many options
+which are not explored by us.  Like after making the quotation we made
+a sales order for that quotation, then we have many options like Pick
+list and Delivery Notes etc for the corresponding Sales order.
+
+# ➡️ Daily-Work (27-12-22)
+- For the testing purpose we are going to make 2 test users in
+erp.gndec.ac.in  to check the current process or status of the work.
+- While testing we make the 2 hod test user
+(1.CSE, 2.IT).So I sent one maintenance request from an employee of
+the CSE department but found that this request was shown to the HOD of
+the IT department also. We now we are working on it.
+- According to us, Department wise workflow is not working properly
+because of this we face this problem.
+
+# ➡️ Daily-Work (28-12-22)
+- To the solution we find that  we did not give them Department permission in Set User Permission.
+- Check under user permission whether the HoD has permission of
+corresponding department, if there is not such permission, add new
+with allowing the department for value of respective department.
+-  now it is working.
+
+# ➡️ Daily-Work (29-12-22)
+- The things that we notice are that items in the stock are not as per
+requirements like we are facing the problem regarding item price of
+the item. Beside this there is a problem regarding the Sanctioned cost.
+- Sanctioned cost will only be visible to SDE after CMC Head approved
+that request and fill sanctioned cost. But, it is not working like
+that. It is the problem of permission levels. So, now we are working
+on it.
+
+# Daily-Work (30-12-22)
+- While doing the transactions between the parties we found that there
+is no implementation of Razorpay Settings in erp.gndec.ac.in.
+- Now we are just trying to pay the bill using the link "payment" in a
+direct way. According to that, we need a bank account for the customer
+party. So, now we are making a dummy bank account for GNDEC(Company).
+
+# ➡️ Daily-Work (1-01-23)
+New Year and Sunday
+
+
+ 
+
+
+
 
 
 
