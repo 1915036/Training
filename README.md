@@ -691,6 +691,26 @@ the ledger the account value is zero(0), but after using the SDC
 company for the transaction the problem is solved .
 - Now  in the ledger we see all the transections.
 
+# ➡️ Daily-Work (10-12-22)
+- As per the discussions, @Satinder sir and @Rai sir we come to the
+point that for the moment we skip the student applicant process and
+start working on "Lead".
+- And we add a fee connection to show the
+ledger of that party, which is showing correctly.
+
+# ➡️ Daily-Work (11-12-22)
+Sunday
+
+# ➡️ Daily-Work (12-12-22)
+- Firstly we tested it localy.
+- gne12.gndec.ac.in the student applicant work is not working properly. 
+- We give a demo.
+
+# ➡️ Daily-Work (13-12-22)
+- We discussed with @Satinder sir that students are also eligible to
+submit the registration fees and applicant fees(500).
+- For this, we firstly create a registration form, in which students fill their details regarding admission.
+
  
  
 
